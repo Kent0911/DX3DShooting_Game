@@ -22,21 +22,18 @@
     <Filter Include="GameSource\Common">
       <UniqueIdentifier>{7870eaba-166e-4769-8766-86a4363a5b8f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="GameSource\Common\Model">
-      <UniqueIdentifier>{ef2851b6-59f2-4069-8702-617e9261f2a0}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameSource\WinMain\WinMain.cpp">
       <Filter>GameSource\WinMain</Filter>
     </ClCompile>
-    <ClCompile Include="GameSource\Common\Model\Model.cpp">
-      <Filter>GameSource\Common\Model</Filter>
+    <ClCompile Include="GameSource\GameObject\Plane\Plane.cpp">
+      <Filter>GameSource\GameObject\Plane</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameSource\Common\Model\Model.h">
-      <Filter>GameSource\Common\Model</Filter>
+    <ClInclude Include="GameSource\GameObject\Plane\Plane.h">
+      <Filter>GameSource\GameObject\Plane</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
