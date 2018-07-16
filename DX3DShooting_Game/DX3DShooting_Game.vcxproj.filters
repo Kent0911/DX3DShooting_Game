@@ -7,10 +7,36 @@
     <Filter Include="GameSource\WinMain">
       <UniqueIdentifier>{7ca7c576-625a-4a3d-895e-5a957a468bdd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameSource\GameObject">
+      <UniqueIdentifier>{103a23ab-f193-47ad-9e28-1f1cab9f7c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Plane">
+      <UniqueIdentifier>{4010f467-adf8-467d-bdca-2e708a90a2b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Bullet">
+      <UniqueIdentifier>{fb7fda87-b31c-46e8-a22f-324199e57057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Missile">
+      <UniqueIdentifier>{043ec85d-3e5d-4458-8bf0-7c3003c9f25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Common">
+      <UniqueIdentifier>{7870eaba-166e-4769-8766-86a4363a5b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Common\Model">
+      <UniqueIdentifier>{ef2851b6-59f2-4069-8702-617e9261f2a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameSource\WinMain\WinMain.cpp">
       <Filter>GameSource\WinMain</Filter>
     </ClCompile>
+    <ClCompile Include="GameSource\Common\Model\Model.cpp">
+      <Filter>GameSource\Common\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameSource\Common\Model\Model.h">
+      <Filter>GameSource\Common\Model</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
