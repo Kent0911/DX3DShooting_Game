@@ -22,6 +22,9 @@
     <Filter Include="GameSource\Common">
       <UniqueIdentifier>{7870eaba-166e-4769-8766-86a4363a5b8f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameSource\Common\ChangeVertexType">
+      <UniqueIdentifier>{f0595b43-d412-4fc0-9236-7f2269746dfd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameSource\WinMain\WinMain.cpp">
@@ -30,10 +33,16 @@
     <ClCompile Include="GameSource\GameObject\Plane\Plane.cpp">
       <Filter>GameSource\GameObject\Plane</Filter>
     </ClCompile>
+    <ClCompile Include="GameSource\Common\ChangeVertexType\ChangeVertexType.cpp">
+      <Filter>GameSource\Common\ChangeVertexType</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameSource\GameObject\Plane\Plane.h">
       <Filter>GameSource\GameObject\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Common\ChangeVertexType\ChangeVertexType.h">
+      <Filter>GameSource\Common\ChangeVertexType</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

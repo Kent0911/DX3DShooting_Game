@@ -154,10 +154,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GameSource\Common\ChangeVertexType\ChangeVertexType.cpp" />
     <ClCompile Include="GameSource\GameObject\Plane\Plane.cpp" />
     <ClCompile Include="GameSource\WinMain\WinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameSource\Common\ChangeVertexType\ChangeVertexType.h" />
     <ClInclude Include="GameSource\GameObject\Plane\Plane.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
