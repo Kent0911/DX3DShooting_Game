@@ -157,12 +157,14 @@
     <ClCompile Include="GameSource\Common\ChangeVertexType\ChangeVertexType.cpp" />
     <ClCompile Include="GameSource\GameObject\FlyingObject\FlyingObject.cpp" />
     <ClCompile Include="GameSource\GameObject\FlyingObject\Plane\Plane.cpp" />
+    <ClCompile Include="GameSource\Player\Player.cpp" />
     <ClCompile Include="GameSource\WinMain\WinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameSource\Common\ChangeVertexType\ChangeVertexType.h" />
     <ClInclude Include="GameSource\GameObject\FlyingObject\FlyingObject.h" />
     <ClInclude Include="GameSource\GameObject\FlyingObject\Plane\Plane.h" />
+    <ClInclude Include="GameSource\Player\Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

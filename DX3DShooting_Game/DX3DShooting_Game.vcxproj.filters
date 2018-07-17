@@ -28,6 +28,12 @@
     <Filter Include="GameSource\GameObject\FlyingObject\Bullet">
       <UniqueIdentifier>{fb7fda87-b31c-46e8-a22f-324199e57057}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameSource\GameScene">
+      <UniqueIdentifier>{55151514-e928-4cba-9b24-0a8d29ffa394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Player">
+      <UniqueIdentifier>{f80339bf-b98b-4797-a023-64ba6c435b4a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameSource\WinMain\WinMain.cpp">
@@ -42,6 +48,9 @@
     <ClCompile Include="GameSource\GameObject\FlyingObject\FlyingObject.cpp">
       <Filter>GameSource\GameObject\FlyingObject</Filter>
     </ClCompile>
+    <ClCompile Include="GameSource\Player\Player.cpp">
+      <Filter>GameSource\Player</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameSource\Common\ChangeVertexType\ChangeVertexType.h">
@@ -52,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="GameSource\GameObject\FlyingObject\FlyingObject.h">
       <Filter>GameSource\GameObject\FlyingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Player\Player.h">
+      <Filter>GameSource\Player</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
