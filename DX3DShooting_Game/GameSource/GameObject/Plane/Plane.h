@@ -1,10 +1,12 @@
 #pragma once
 
 #include <d3d11.h>
+#include <string>
 
 #include "CKitBehaviour.h"
 #include "CModel.h"
 #include "CVertexTypes.h"
+#include "../Library/KitLib/include/ObjFile.h"
 
 class Plane : public kit::Engine::KitBehaviour {
 public:
