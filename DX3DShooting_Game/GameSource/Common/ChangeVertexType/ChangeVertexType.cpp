@@ -26,3 +26,19 @@ std::vector<kit::Engine::VertexPosNorTex> ChangeVertexType(kit::VertexInfo const
 	}
 	return vertices;
 }
+
+std::vector<uint16_t> ChangeIndex(kit::VertexInfo const& _vertexInfo) {
+	std::vector<uint16_t> indices;
+
+	for ( int i = 0; i < _vertexInfo.vertexIndices.size(); ++i ) {
+		uint16_t index = 0;
+		index = _vertexInfo.vertexIndices[i].nom0;
+		indices.push_back(index);
+		index = _vertexInfo.vertexIndices[i].nom1;
+		indices.push_back(index);
+		index = _vertexInfo.vertexIndices[i].nom2;
+		indices.push_back(index);
+	}
+	return indices;
+}
+}
