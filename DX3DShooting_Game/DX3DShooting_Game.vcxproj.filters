@@ -10,39 +10,48 @@
     <Filter Include="GameSource\GameObject">
       <UniqueIdentifier>{103a23ab-f193-47ad-9e28-1f1cab9f7c6d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="GameSource\GameObject\Plane">
-      <UniqueIdentifier>{4010f467-adf8-467d-bdca-2e708a90a2b8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameSource\GameObject\Bullet">
-      <UniqueIdentifier>{fb7fda87-b31c-46e8-a22f-324199e57057}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameSource\GameObject\Missile">
-      <UniqueIdentifier>{043ec85d-3e5d-4458-8bf0-7c3003c9f25f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="GameSource\Common">
       <UniqueIdentifier>{7870eaba-166e-4769-8766-86a4363a5b8f}</UniqueIdentifier>
     </Filter>
     <Filter Include="GameSource\Common\ChangeVertexType">
       <UniqueIdentifier>{f0595b43-d412-4fc0-9236-7f2269746dfd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameSource\GameObject\FlyingObject">
+      <UniqueIdentifier>{0120ef65-9b95-42be-979e-ed8f17ecfbe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\FlyingObject\Plane">
+      <UniqueIdentifier>{4010f467-adf8-467d-bdca-2e708a90a2b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\FlyingObject\Missile">
+      <UniqueIdentifier>{043ec85d-3e5d-4458-8bf0-7c3003c9f25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\FlyingObject\Bullet">
+      <UniqueIdentifier>{fb7fda87-b31c-46e8-a22f-324199e57057}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameSource\WinMain\WinMain.cpp">
       <Filter>GameSource\WinMain</Filter>
     </ClCompile>
-    <ClCompile Include="GameSource\GameObject\Plane\Plane.cpp">
-      <Filter>GameSource\GameObject\Plane</Filter>
-    </ClCompile>
     <ClCompile Include="GameSource\Common\ChangeVertexType\ChangeVertexType.cpp">
       <Filter>GameSource\Common\ChangeVertexType</Filter>
     </ClCompile>
+    <ClCompile Include="GameSource\GameObject\FlyingObject\Plane\Plane.cpp">
+      <Filter>GameSource\GameObject\FlyingObject\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\GameObject\FlyingObject\FlyingObject.cpp">
+      <Filter>GameSource\GameObject\FlyingObject</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameSource\GameObject\Plane\Plane.h">
-      <Filter>GameSource\GameObject\Plane</Filter>
-    </ClInclude>
     <ClInclude Include="GameSource\Common\ChangeVertexType\ChangeVertexType.h">
       <Filter>GameSource\Common\ChangeVertexType</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\GameObject\FlyingObject\Plane\Plane.h">
+      <Filter>GameSource\GameObject\FlyingObject\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\GameObject\FlyingObject\FlyingObject.h">
+      <Filter>GameSource\GameObject\FlyingObject</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
