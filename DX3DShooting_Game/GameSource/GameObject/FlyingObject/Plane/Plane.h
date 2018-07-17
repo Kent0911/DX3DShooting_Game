@@ -6,15 +6,19 @@
 #include "CKitBehaviour.h"
 #include "CModel.h"
 #include "CVertexTypes.h"
-#include "../Library/KitLib/include/ObjFile.h"
+#include "../FlyingObject.h"
 
-class Plane : public kit::Engine::KitBehaviour {
+
+class Plane : public FlyingObject {
 public:
 	Plane();
 	~Plane();
+	void(Plane::*mfunc_control)(kit::vec3);
+	void Control(kit::vec3 _target);
+	void AutoControl(kit::vec3 _target);
 
-	virtual void Update();
+	virtual void Update(kit::vec3 _target);
 	virtual void Render(ID3D11DeviceContext* _pd3dImmidiateContext);
 private:
-	kit::Engine::Model< kit::Engine::VertexPosNorTex > m_model;
+
 };

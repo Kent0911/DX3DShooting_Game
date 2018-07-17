@@ -8,7 +8,15 @@ Plane::~Plane() {
 
 }
 
-void Plane::Update() {
+void Plane::Control(kit::vec3 _target) {
+
+}
+
+void Plane::AutoControl(kit::vec3 _target) {
+
+}
+
+void Plane::Update(kit::vec3 _target) {
 
 }
 
